@@ -1,0 +1,435 @@
+h1 {
+    color: #d9d9d9 !important;
+}
+
+h2 {
+    color: #fff !important;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar-content {
+    float: right;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* @media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+} */
+
+
+/* navbar-end */
+
+/* banner */
+
+.home {
+    background-color: #34421e;
+    height: 90vh;
+}
+.heading h1{
+    color: #000000 !important;
+}
+
+.home img {
+    height: 570px;
+    width: 75%;
+    float: right;
+    margin-right: 5%;
+}
+
+.home-text-heading h1 {
+    position: absolute;
+    font-size: 6em;
+    text-transform: uppercase;
+    width: 300px;
+    margin: 150px 0px 0px 150px;
+    font-weight: 700;
+    color: #fff !important;
+}
+
+.home-para p {
+    position: absolute;
+    color: #fff;
+    width: 350px;
+    bottom: 30px;
+    right: 55px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+/* banner-end */
+
+/* house */
+
+.yellow-div {
+    background-color: #c19434;
+    height: 200px;
+    width: 790px;
+    margin: -25px 0 0 0;
+}
+
+.yellow-div img {
+    height: 158px;
+    width: 250px;
+    margin-top: 25px;
+}
+
+.yellow-img {
+    margin: 0 0 0 -50px;
+}
+
+.house-heading h1 {
+    text-transform: uppercase;
+    font-size: 9em;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+/* house-end */
+
+/* design  */
+.design-div {
+    position: relative;
+}
+
+.design-green-div {
+    background-color: #34421e;
+    height: 450px;
+    width: 900px;
+    z-index: 12;
+}
+
+.design-yellow-div {
+    background-color: #c19434;
+    height: 473px;
+    width: 800px;
+    right: 0%;
+    bottom: -60%;
+    position: absolute;
+}
+
+.design-img {
+    position: absolute;
+}
+
+.design-img img {
+    width: 577px;
+    height: 568px;
+    position: absolute;
+    margin: 74px 277px 0 575px;
+    z-index: 1;
+}
+
+.design-white-div {
+    position: absolute;
+    height: auto;
+    width: 500px;
+    background-color: #F7F7F7;
+    padding: 30px;
+    position: absolute;
+    margin: 150px 277px 0 100px;
+    z-index: 5;
+}
+
+.white-text {
+    background-color: #fff;
+    padding: 50px;
+    border: 2px solid black;
+}
+
+.white-text h1 {
+    color: #c19434 !important;
+}
+
+.design-container {
+    height: 120vh;
+}
+
+.small-green-div {
+    background-color: #34421e;
+    width: 10px;
+    height: auto;
+    margin-left: 50px;
+}
+
+.small-green-div h1 {
+    width: 400px;
+    margin-left: 50px;
+    color: #000000 !important;
+}
+
+.small-green-div p {
+    padding-top: 20px;
+    width: 800px;
+    margin-left: 50px;
+    color: #000000 !important;
+    font-size: 1.2em;
+    font-weight: 450;
+}
+
+/* design-end */
+
+/* what we do  */
+#what-to-do {
+    background-color: #2f3329;
+}
+
+.wtd-text {
+    color: #fff;
+    padding: 50px;
+}
+
+.wtd-text h2 {
+    font-size: 5em;
+    font-weight: 600;
+}
+
+.wtd-text p {
+    font-size: 1.2em;
+}
+
+.wtd-yellow-div {
+    background-color: #c19434;
+    height: 550px;
+    width: 550px;
+    margin: -180px 0 0 100px;
+}
+
+.wtd-yellow-div img {
+    height: 250px;
+    width: 280px;
+    margin-bottom: 30px;
+
+}
+
+.yellow-image {
+    margin: 50px 0 0 -50px;
+    padding: 50px 0 0 0;
+}
+
+.wtd-icon i {
+    font-size: 5em;
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+
+.icon {
+    text-align: center;
+}
+
+/* what we do-end */
+
+/* practicing */
+.pra-text h2 {
+    color: #000000 !important;
+    font-size: 2.5em;
+    width: 850px;
+    line-height: 1.7;
+    font-weight: 700;
+}
+
+.pra-green-div {
+    background-color: #34421e;
+    height: 600px;
+    width: 500px;
+    float: right;
+}
+
+.pra-green-div img {
+    height: 450px;
+    margin: 75px 0 0 -450px;
+}
+
+#pra-p {
+    color: #000000;
+    height: 200px;
+    width: 300px;
+    line-height: 2;
+    font-size: 1.5em;
+    margin: 300px 0 0 100px;
+}
+
+/* practicing-end */
+
+/* good work  */
+#good-work img {
+    height: 600px;
+    width: 100%;
+}
+
+.gw-heading h1 {
+    font-size: 9.5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.gw-design-green-div {
+    background-color: #34421e;
+    height: 120vh;
+    width: 65%;
+    z-index: 5;
+    position: absolute;
+}
+
+.gw-design-yellow-div {
+    background-color: #c19434;
+    height: 500px;
+    width: 700px;
+    float: right;
+    margin-top: 80px;
+    position: relative;
+}
+
+.gw-design-green-div img {
+    width: 650px !important;
+    height: 550px !important;
+    margin: 150px 0 0 500px;
+    z-index: 2;
+}
+
+.gw-design-yellow-div img {
+    width: 350px !important;
+    height: 300px !important;
+    margin: 450px 0 0 250px;
+    z-index: 10;
+    position: relative;
+}
+
+.gw-white-box {
+    height: auto;
+    width: 550px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 5px 5px 10px gray;
+    margin: -150px 0 0 250px;
+    position: relative;
+}
+
+.gw-white-text {
+    border: 2px solid #000000;
+    padding: 30px;
+    text-align: center;
+}
+
+.gw-white-text h1 {
+    color: #c19434 !important;
+}
+
+.gw-white-text p {
+    padding-top: 20px;
+    font-size: 1.3em;
+}
+
+.design {
+    height: 150vh;
+}
+
+/* good work-end */
+
+/* learn more  */
+.lm-container {
+    text-align: center;
+    background-color: #c19434;
+    color: #fff;
+
+}
+
+.lm-container h2 {
+    font-size: 3em;
+
+}
+
+.lm-container p {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.lm-container .btn {
+    border-radius: 0;
+    font-size: 1.2em;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+}
+
+/* learn more-end */
+
+/* footer  */
+#footer {
+    background-color: #34421e;
+    text-align: center;
+}
+
+.footer-icon i {
+    font-size: 2em;
+    letter-spacing: 10px;
+    color: white;
+}
+
+.footer-icon i:hover {
+    color: gray;
+}
+
+.footer-icon p {
+    padding-top: 20px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+/* footer-end */

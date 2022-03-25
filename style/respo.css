@@ -1,0 +1,418 @@
+/* Small size display */
+@media (max-width: 767.98px) {
+    /* .overlay a {
+        font-size: 20px
+    }
+
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    } */
+
+
+    /* banner */
+    .home {
+        height: auto;
+    }
+
+    .home-text-heading h1 {
+        font-size: 3em;
+        text-align: center;
+        width: auto;
+        padding-left: 0px;
+        /* margin: 150px 0px 0px 0px; */
+        margin: 50px 0px 0px 0px;
+    }
+
+    .home img {
+        height: 400px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .home-para p {
+        top: 45%;
+        text-align: center;
+        width: auto;
+        /* height: 100px; */
+        right: 0;
+        bottom: 1px;
+    }
+
+    /* banner-end */
+
+    /* house */
+    .yellow-div {
+        margin: 0 0 50px 50px;
+        width: 75%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .yellow-div img {
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .house-heading h1 {
+        font-size: 6em;
+    }
+
+    /* house-end */
+
+    /* design */
+    .design-green-div {
+        width: 300px;
+        height: 400px;
+    }
+
+    .design-yellow-div {
+        width: 300px;
+        z-index: 2;
+    }
+
+    .design-img img {
+        margin: 0;
+        width: 300px;
+        height: 300px;
+        margin: 140px 0 0 50px;
+        z-index: 3;
+    }
+
+    .design-white-div {
+        margin: 0;
+        height: auto;
+        width: 300px;
+        padding: 20px;
+        margin: 310px 0 0 0px;
+    }
+
+    .white-text {
+        padding: 10px;
+        z-index: 4;
+    }
+
+    .design-container {
+        height: 135vh;
+    }
+
+    .small-green-div h1 {
+        width: 250px;
+        font-size: 1.5em;
+    }
+
+    .small-green-div p {
+        width: 250px;
+    }
+
+    /* design-end */
+
+    /* what we do  */
+
+    .wtd-text {
+        padding: 50px 20px;
+    }
+
+    .wtd-text h2 {
+        font-size: 3em;
+    }
+
+    .wtd-text p {
+        font-size: 1em;
+    }
+
+    .yellow-image {
+        margin: 0 0 0 -50px;
+    }
+
+    .wtd-yellow-div {
+        height: auto;
+        width: 250px;
+        margin: 0px 0 0 80px;
+    }
+
+    .wtd-yellow-div img {
+        height: 200px;
+        width: 220px;
+        margin-bottom: 20px;
+    }
+
+    /* what we do-end */
+
+    /* practicing */
+
+    .pra-text h2 {
+        font-size: 27px;
+        line-height: normal;
+        height: auto;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .pra-green-div {
+        width: 80%;
+        height: 550px;
+    }
+
+    .pra-green-div img {
+        height: 380px;
+        /* height: 65%; */
+    }
+
+    #pra-p {
+        margin: 0 0 50px 50px;
+    }
+
+    /* practicing-end */
+
+    /* good work */
+    #good-work img {
+        height: auto;
+        width: 100%;
+    }
+    .gw-heading h1 {
+        font-size: 6.5em;
+    }
+
+    .gw-design-green-div {
+        height: 80vh;
+    }
+
+    .gw-design-yellow-div {
+        height: 400px;
+    }
+
+    .gw-design-green-div img {
+        margin: 50px 0 0 30px;
+        height: 315px !important;
+        width: 335px !important;
+    }
+
+    .gw-design-yellow-div img {
+        height: 184px !important;
+        width: 184px !important;
+        margin-right: auto;
+        margin: 260px 0 0 410px;
+    }
+
+    .gw-white-box {
+        margin: 0;
+        width: 320px;
+        margin: 180px 0 0 30px;
+    }
+
+    .gw-white-text h1 {
+        font-size: 1.5em;
+    }
+
+    .gw-white-text p {
+        font-size: 1em;
+    }
+
+    .design {
+        height: 180vh;
+    }
+
+    /* good work-end */
+
+
+}
+
+
+
+/* Medium devices (tablets, less than 992px) */
+@media screen and (min-device-width: 768px) and (max-device-width: 992px) {
+
+    /* home  */
+    .home {
+        background-color: #34421e;
+        height: 50vh;
+    }
+
+    .home img {
+        height: 470px;
+        width: 75%;
+    }
+
+    .home-text-heading h1 {
+        font-size: 4em;
+        margin: 150px 0 0 60px;
+    }
+
+    .home-para p {
+        top: 400px;
+    }
+
+    /* home-end */
+
+
+    /* house */
+    .yellow-img {
+        margin: 0 0 0 -50px;
+    }
+
+    .yellow-div {
+        width: 75%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .yellow-div img {
+        height: 120px;
+        width: 180px;
+        margin-top: 20px;
+    }
+
+    .house-heading h1 {
+        font-size: 8em !important;
+        letter-spacing: 10px;
+    }
+
+    /* house-end */
+
+
+    /* design */
+    .design-green-div {
+        width: 470px;
+        height: 350px;
+    }
+
+    .design-yellow-div {
+        width: 470px;
+        height: 350px;
+        z-index: 2;
+    }
+
+    .design-img img {
+        margin: 0;
+        width: 350px;
+        height: 350px;
+        margin: 100px 0 0 250px;
+        z-index: 3;
+    }
+
+    .design-white-div {
+        margin: 0;
+        height: auto;
+        width: 350px;
+        padding: 20px;
+        margin: 280px 0 0 70px;
+    }
+
+    .white-text {
+        padding: 10px;
+        z-index: 4;
+    }
+
+    .design-container {
+        height: 85vh;
+    }
+
+    .small-green-div p {
+        width: 500px;
+        font-size: 1em;
+    }
+
+    /* design-end */
+
+    /* what we do  */
+
+    .wtd-text {
+        padding: 50px 20px;
+    }
+
+    .wtd-text h2 {
+        font-size: 3em;
+    }
+
+    .wtd-text p {
+        font-size: 1em;
+    }
+
+    .wtd-yellow-div {
+        height: 390px;
+        width: 300px;
+    }
+
+    .wtd-yellow-div img {
+        height: 180px;
+        width: 155px;
+        margin-bottom: 20px;
+    }
+
+    /* what we do-end */
+
+    /* practicing */
+
+    .pra-text h2 {
+        font-size: 27px;
+        line-height: normal;
+        height: auto;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .pra-green-div {
+        width: 45%;
+        height: 400px;
+    }
+
+    .pra-green-div img {
+        height: 55%;
+        margin: 100px 0 0 -90px;
+    }
+
+    #pra-p {
+        margin: 300px 0 0 50px;
+        line-height: normal;
+    }
+
+    /* practicing-end */
+
+    /* good work */
+    .gw-heading h1 {
+        font-size: 7.5em;
+    }
+
+    .gw-design-green-div {
+        height: 60vh;
+        width: 55%;
+    }
+
+    .gw-design-yellow-div {
+        height: 400px;
+    }
+
+    .gw-design-green-div img {
+        margin: 140px 0 0 236px;
+        height: 370px !important;
+        width: 370px !important;
+    }
+
+    .gw-design-yellow-div img {
+        height: 200px !important;
+        width: 200px !important;
+        margin: 320px 0 0 350px;
+    }
+
+    .gw-white-box {
+        margin: 0;
+        width: 400px;
+        margin: -45px 0 0 53px;
+    }
+
+    .gw-white-text h1 {
+        font-size: 1.5em;
+    }
+
+    .gw-white-text p {
+        font-size: 1em;
+    }
+
+    .design {
+        height: 80vh;
+    }
+
+    /* good work-end */
+}
